@@ -1,7 +1,7 @@
 
 
 var app = angular.module('customersApp', []);
-
+/*
 //This configures the routes and associates each route with a view and a controller
 app.config(function ($routeProvider) {
     $routeProvider
@@ -23,7 +23,7 @@ app.config(function ($routeProvider) {
                 templateUrl: 'app/partials/orders.html'
             })
         .otherwise({ redirectTo: '/customers' });
-});
+}); 
 
 
 
