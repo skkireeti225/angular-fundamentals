@@ -23,7 +23,7 @@ app.config(function ($routeProvider) {
                 templateUrl: 'app/partials/orders.html'
             })
         .otherwise({ redirectTo: '/customers' });
-}); 
+});  */
 
 
 
